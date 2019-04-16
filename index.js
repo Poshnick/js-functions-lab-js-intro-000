@@ -8,16 +8,16 @@ function happyHolidaysTo(name) {
   console.log(`Happy holidays, ${name}!`)
 }
 
-happyHolidaysTo('you')
+var name = 'you';
 
 function happyHolidayTo(holiday, name) {
   console.log(`Happy ${holiday}, ${name}!`)
 }
 
-happyHolidaysTo('Independence Day', 'you')
+var holiday = 'Independence Day', name = 'you';
 
 function holidayCountdown(holiday, days) {
   console.log(`It's ${days} days until ${holiday}!`)
 }
 
-holidayCountdown("Mother's Day", 20)
+var days = 20, holiday = 'Mother\'s Day';
